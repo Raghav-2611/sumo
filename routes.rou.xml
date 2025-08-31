@@ -1,0 +1,21 @@
+<routes>
+    <!-- Vehicle Types -->
+    <vType id="car_seatbelt" vClass="passenger" color="0,255,0"/>
+    <vType id="car_no_seatbelt" vClass="passenger" color="255,0,0"/>
+    <vType id="bike_helmet" vClass="bicycle" color="0,0,255"/>
+    <vType id="bike_no_helmet" vClass="bicycle" color="255,165,0"/>
+
+    <!-- Vehicles -->
+    <vehicle id="car1" type="car_seatbelt" route="north_south" depart="1"/>
+    <vehicle id="car2" type="car_no_seatbelt" route="south_north" depart="2"/>
+
+    <vehicle id="bike1" type="bike_helmet" route="west_east" depart="3"/>
+    <vehicle id="bike2" type="bike_no_helmet" route="east_west" depart="4"/>
+    <vehicle id="bike3" type="bike_no_helmet" route="north_south" depart="5"/>
+
+    <!-- Routes -->
+    <route id="north_south" edges="NC CS"/>
+    <route id="south_north" edges="SC CN"/>
+    <route id="west_east" edges="WC CE"/>
+    <route id="east_west" edges="EC CW"/>
+</routes>

@@ -1,0 +1,12 @@
+<configuration>
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+        <additional-files value="trafficlights.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="1"/>
+        <end value="20"/>   <!-- Run for 20 seconds -->
+    </time>
+</configuration>

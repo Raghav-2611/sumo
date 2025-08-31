@@ -1,0 +1,20 @@
+<net>
+    <nodes>
+        <node id="C" x="0.0" y="0.0" type="traffic_light"/>
+        <node id="N" x="0.0" y="100.0" type="priority"/>
+        <node id="S" x="0.0" y="-100.0" type="priority"/>
+        <node id="E" x="100.0" y="0.0" type="priority"/>
+        <node id="W" x="-100.0" y="0.0" type="priority"/>
+    </nodes>
+
+    <edges>
+        <edge id="NC" from="N" to="C" numLanes="1" speed="13.9"/>
+        <edge id="CN" from="C" to="N" numLanes="1" speed="13.9"/>
+        <edge id="SC" from="S" to="C" numLanes="1" speed="13.9"/>
+        <edge id="CS" from="C" to="S" numLanes="1" speed="13.9"/>
+        <edge id="EC" from="E" to="C" numLanes="1" speed="13.9"/>
+        <edge id="CE" from="C" to="E" numLanes="1" speed="13.9"/>
+        <edge id="WC" from="W" to="C" numLanes="1" speed="13.9"/>
+        <edge id="CW" from="C" to="W" numLanes="1" speed="13.9"/>
+    </edges>
+</net>
