@@ -1,1 +1,7 @@
+<!-- This is the for version and availablity check -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <message>Hello, World!</message>
+</root>
 
